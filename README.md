@@ -10,7 +10,8 @@ Este proyecto es una página web personal que iré completando paso a paso. Ahor
 ```
 Mi Página Web/ 
 ├── index.html 
-├── style.css 
+├── style.css
+├── script.js 
 ├── images/ 
 │ 
 ├── logo.png 
