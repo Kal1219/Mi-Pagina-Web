@@ -83,3 +83,21 @@
     text-shadow: 2px 2px 4px #000000;
     padding-bottom: 20px;
 }
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 3rem;
+    padding: auto;
+    margin: 0 auto;
+}
+
+.iconos a{
+    color: var(--color-blanco);
+}
+
+.iconos a:hover{
+    color: var(--color-rojo2);
+}
