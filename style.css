@@ -1,0 +1,85 @@
+:root{
+    --color-negro: #2b2d42;
+    --color-gris: #8d99ae;
+    --color-blanco: #edf2f4;
+    --color-rojo1: #ef233c;
+    --color-rojo2: #d90429; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrain Mono", monospace;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-negro);
+    padding: 0 5px;
+}
+
+.logo img{
+    width:60px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--color-blanco);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.nav-links a:hover{
+    color: var(--color-gris);
+}
+
+.hero_section{
+    background-image: url(/images/illustration-anime-city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 20px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.hero_section .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 15vh;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero_section p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 20px;
+}
