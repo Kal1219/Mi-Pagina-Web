@@ -4,21 +4,21 @@ Este es el repositorio de mi proyecto de página web personal.
 
 ## Descripción
 
-Este proyecto es una página web personal que iré completando paso a paso. Ahorita incluye una barra de navegación, una sección de héroe con una imagen de fondo y una imagen de perfil circular. La página está diseñada con HTML y CSS, utilizando variables CSS para la gestión de colores.
+Este proyecto es una página web personal que iré completando paso a paso. Ahorita incluye una barra de navegación, una sección de héroe con una imagen de fondo, una imagen de perfil circular, links a redes sociales y un botón para descargar mi CV. La página está diseñada con HTML y CSS, utilizando variables CSS para la gestión de colores. La lógica 
 
 ## Estructura del Proyecto
 ```
-Mi Página Web/ 
-├── index.html 
+Mi Página Web/
+├── index.html
 ├── style.css
-├── script.js 
-├── images/ 
-│ 
-├── logo.png 
-│ 
-├── fondo_pantalla.jpg 
-│ 
-└── illustration-anime-city.jpg └── README.md
+├── script.js
+├── files/
+│   └── CV.pdf
+├── images/
+│   ├── logo.png
+│   ├── fondo_pantalla.jpg
+│   └── illustration-anime-city.jpg
+└── README.md
 ```
 
 ## Tecnologías Utilizadas

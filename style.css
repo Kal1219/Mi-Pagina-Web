@@ -101,3 +101,21 @@
 .iconos a:hover{
     color: var(--color-rojo2);
 }
+
+.hero_section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: var(--color-rojo2);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero_section button:hover{
+    background-color: var(--color-rojo1);
+}
