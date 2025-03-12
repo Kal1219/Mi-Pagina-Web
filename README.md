@@ -4,7 +4,7 @@ Este es el repositorio de mi proyecto de página web personal.
 
 ## Descripción
 
-Este proyecto es una página web personal que iré completando paso a paso. Ahorita incluye una barra de navegación, una sección de héroe con una imagen de fondo, una imagen de perfil circular, links a redes sociales y un botón para descargar mi CV. La página está diseñada con HTML y CSS, utilizando variables CSS para la gestión de colores. La lógica 
+Este proyecto es una página web personal que iré completando paso a paso. Ahorita incluye una barra de navegación, una sección de héroe con una imagen de fondo, una imagen de perfil circular, links a redes sociales y un botón para descargar mi CV. La página está diseñada con HTML y CSS, utilizando variables CSS para la gestión de colores. La lógica del botón se agrego al archivo script.js
 
 ## Estructura del Proyecto
 ```
@@ -12,6 +12,7 @@ Mi Página Web/
 ├── index.html
 ├── style.css
 ├── script.js
+├── .gitignore
 ├── files/
 │   └── CV.pdf
 ├── images/
@@ -25,6 +26,7 @@ Mi Página Web/
 
 - HTML
 - CSS
+- JavaScript
 
 ## Variables CSS
 
